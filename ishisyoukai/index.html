@@ -40,10 +40,7 @@
 
 <!-- OGP -->
 <meta property="og:type" content="article">
-<img src="https://byblis.github.io/hirano-pediatrics/wp-content/uploads/2025/09/doctor.png"
-     alt="院長 平野花恵の顔写真"
-     width="480" height="480"
-     loading="lazy" decoding="async" itemprop="image">
+
 
 <meta property="og:title" content="医師紹介">
 <meta property="og:url" content="https://byblis.github.io/hirano-pediatrics/ishisyoukai/">
@@ -301,39 +298,27 @@ span.site-name-text {
       
 <section class="doctor-profile">
   <h2>医師紹介</h2>
+<article class="profile-card" itemscope itemtype="https://schema.org/Physician">
+  <figure class="profile-photo-wrap">
+    <img
+      src="https://byblis.github.io/hirano-pediatrics/wp-content/uploads/2025/09/doctor.png"
+      alt="院長 平野花恵の顔写真"
+      width="480"
+      height="480"
+      loading="lazy"
+      decoding="async"
+      itemprop="image">
+  </figure>
 
-  <article class="profile-card" itemscope itemtype="https://schema.org/Physician">
-    <figure class="profile-photo-wrap">
-      <!-- ▼ここを実際の画像URLに差し替え（メディア&rarr;画像を開いてURLコピー） -->
-      <img alt decoding="async" src="https://byblis.github.io/hirano-pediatrics/wp-content/uploads/2025/09/ChatGPT-Image-2025%E5%B9%B49%E6%9C%8816%E6%97%A5-15_24_46.png">
+  <!-- 例：テキスト側の構造化データ（任意） -->
+  <h1 class="profile-name" itemprop="name">平野 花恵</h1>
+  <p class="profile-title" itemprop="medicalSpecialty">小児科</p>
+  <p class="profile-desc" itemprop="description">
+    赤ちゃんから思春期までのお子さまの診療を担当します。予防接種・健診もお気軽にご相談ください。
+  </p>
+</article>
 
-           alt=&rdquo;院長 平野花恵の顔写真&rdquo; width=&rdquo;480&Prime; height=&rdquo;480&Prime; loading=&rdquo;lazy&rdquo; decoding=&rdquo;async&rdquo;
-           itemprop=&rdquo;image&rdquo;&gt;
-    </figure>
-
-    <div class="profile-text">
-      <h3 class="name" itemprop="name">院長　平野 花恵（ひらの はなえ）</h3>
-      <p class="title"><strong itemprop="medicalSpecialty">小児科専門医</strong></p>
-
-      <p class="intro" itemprop="description">
-        地域のお子さまに寄り添う「かかりつけ小児科」を目指しています。<br>
-        アレルギー、予防接種、乳幼児健診を中心に、気になる症状は何でもご相談ください。
-      </p>
-
-      <dl class="kv">
-        <div><dt>経歴</dt><dd>九州大学医学部卒／九州大学病院小児科／地域基幹病院小児科／2025年「ひらの小児科」開院</dd></div>
-        <div><dt>資格・所属</dt><dd>日本小児科学会認定 小児科専門医／日本アレルギー学会／日本小児感染症学会</dd></div>
-      </dl>
-
-      <section class="message" aria-labelledby="doctor-message-title">
-        <h4 id="doctor-message-title">院長からのメッセージ</h4>
-        <p>
-          お子さまの成長には、日々の小さな変化の積み重ねがあります。<br>
-          ご家族の不安に丁寧に向き合い、安心して通っていただける医療を大切にしています。
-        </p>
-      </section>
-    </div>
-  </article>
+ 
 </section>
 
 <style>
@@ -773,6 +758,7 @@ var cocoon_localize_script_options = {"is_lazy_load_enable":"","is_fixed_mobile_
 </body>
 
 </html>
+
 
 
 
